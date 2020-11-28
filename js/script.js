@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        item:1,
+	    margin:10,
+        autoplay:true,
+        autoplayTimeout:2500,
+        nav:false,
+    });
+});

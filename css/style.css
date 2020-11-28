@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+    width: 250px;
+    height: 30px;
+    margin: 80px auto;
+}
+.heading h2{
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+.heading h2::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 150px;
+    background-color: #6AAF08;
+    top: 50px;
+    left: 55px;
+    border-radius: 10px;
+}
+.heading h2::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: #000000;
+    top: 50px;
+    left: 105px;
+    border-left: 10px solid #ffffff;
+    border-right: 10px solid #ffffff;
+}
+.single-item{
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+.single-item .fa{
+    float: left;
+    padding: 20px;
+}
+.single-item i{
+    font-size: 20px;
+    color: #6AAF08;
+    margin-top: 50px;
+    position: relative;
+}
+.single-item i::after{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    background-color: #cccccc;
+    top: -20px;
+    right: 10px;
+}
+.single-item h4,
+span p,
+p{
+    margin-left: 60px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height:5px;
+    background: #6AAF08;
+    border-radius: 10px;
+}
+
+
+
